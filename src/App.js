@@ -120,7 +120,7 @@ function App() {
         possible.
       </p>
 
-      {/* 🔥 Added Education Section */}
+      
       <div className="education">
         <h3>Education</h3>
 

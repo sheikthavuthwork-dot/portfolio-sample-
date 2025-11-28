@@ -1,4 +1,6 @@
- 
+html{
+  scroll-behavior: smooth;
+} 
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -454,6 +456,10 @@ textarea:focus {
   object-fit: cover;
   margin-top: 40px;
 } 
+
+.education > h3{
+  color: #b8860b;
+}
 
 
 

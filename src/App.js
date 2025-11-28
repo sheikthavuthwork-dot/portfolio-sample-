@@ -66,7 +66,7 @@ function App() {
 
           <p>
             I create responsive UI with React and powerful backend systems using
-            Node.js, CSS,Html & MySQL. Passionate about problem-solving
+            Node.js, CSS,Html & MySQL. Passionate about    problem solving
             and building real-world applications.
           </p>
 
@@ -95,41 +95,66 @@ function App() {
       </section>
 
       <section id="about" className="about">
-        <div className="about-container">
-          <div className="about-text">
-            <h2>Hello You</h2>
+  <div className="about-container">
 
-            <h4 className="sub-heading">
-              MY NAME IS SHEIK THAVUTH & I’M A FULL STACK DEVELOPER.
-            </h4>
+    <div className="about-text">
+      <h2>Hello You</h2>
 
-            <p>
-              My journey started with curiosity about how websites work. Over time,
-              I learned HTML, CSS, JavaScript and moved into frameworks like React
-              and backend technologies like Node.js.
-            </p>
+      <h4 className="sub-heading">
+        MY NAME IS SHEIK THAVUTH & I’M A FULL STACK DEVELOPER.
+      </h4>
 
-            <p>
-              I love building clean UI, fast APIs, and full applications that help
-              real people.
-            </p>
+      <p>
+        My journey started with curiosity about how websites work. Over time,
+        I learned HTML, CSS, JavaScript and moved into frameworks like React
+        and backend technologies like Node.js.
+      </p>
 
-            <p className="moral">
-              MORAL OF THE STORY: Keep learning, keep building — anything is
-              possible.
-            </p>
+      <p>
+        I love building clean UI, fast APIs, and full applications that help
+        real people.
+      </p>
 
-            <button className="chat-btn" onClick={handleclick}>
-              CONTACT ME FOR A CHAT
-            </button>
-          </div>
+      <p className="moral">
+        MORAL OF THE STORY: Keep learning, keep building — anything is
+        possible.
+      </p>
 
-          <div className="about-image">
-            <img src={image} alt="Sheik Thavuth" className="about-image" />
+      {/* 🔥 Added Education Section */}
+      <div className="education">
+        <h3>Education</h3>
 
-          </div>
-        </div>
-      </section>
+        <ul>
+          <li>
+            <strong>Bachelor of Computer Applications (BCA)</strong>  
+             <br></br>Mohamed Sathak College of Arts and Science.<br></br>
+             2018-2021
+          </li>
+
+          <li>
+            <strong>Higher Secondary Education</strong> <br></br> 
+             St'Annes Matric and Higher Secondary School.<br></br>
+             2016-2018
+          </li>
+
+         
+        </ul>
+      </div>
+
+      <button className="chat-btn" onClick={handleclick}>
+        CONTACT ME FOR A CHAT
+      </button>
+    </div>
+
+    <div className="about-image">
+      <img src={image} alt="Sheik Thavuth" className="about-image" />
+    </div>
+
+  </div>
+</section>
+
+
+      
 
       <section id="skills" className="skills">
   <h2 className="skills-title">What I Do</h2>
